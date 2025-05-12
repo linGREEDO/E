@@ -1,0 +1,31 @@
+
+% Map of task 2 (lab 4) .txt
+% File containing map information
+
+% the enclosing walls
+wall -4.5  4.5 -4.5 -4.5
+wall -4.5 -4.5  4.5 -4.5
+wall  4.5 -4.5  4.5  4.5
+wall  4.5  4.5 -4.5  4.5
+
+% First the enclosing walls
+wall  3  2.5  3  -1
+wall  3 -1    0  -1
+wall  0 -1    0  -4
+wall  0 -4   -3  -4
+
+% Second the enclosing walls
+wall  2  2.5  2  0
+wall  2  0   -1  0
+wall -1  0   -1 -3
+wall -1 -3   -3 -3
+ 
+
+% lines showing the desired trajectory
+line  2.5  2    2.5 -0.5
+line  2.5 -0.5 -0.5 -0.5   
+line -0.5 -0.5 -0.5 -3.5
+line -0.5 -3.5 -3   -3.5
+
+% End point
+beacon -4  -3.5 [0.0 1.0 0.0] End
